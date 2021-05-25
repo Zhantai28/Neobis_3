@@ -3,7 +3,6 @@ from django.contrib.auth.models import User
 from datetime import date
 import uuid  # Required for unique book instances
 from django.db import models
-
 # Create your models here.
 
 from django.urls import reverse  # To generate URLS by reversing URL patterns
